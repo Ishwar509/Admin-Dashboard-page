@@ -1,0 +1,80 @@
+
+.header {
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    padding: 20px 40px;
+}
+
+.rowOne {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    place-items: center;
+    column-gap: 5px;
+}
+
+.search-icon, .notification-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.rowOne .userAvatar {
+    width: 3rem;
+    height: 3rem;
+}
+
+.search-bar {
+    width: 40rem;
+    height: 2rem;
+    border-radius: 2rem;
+    border: none;
+    padding: 0px 16px;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin-right: 8rem;
+}
+
+.userName {
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+
+.rowTwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.rowTwo .userProfile {
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+}
+
+.userProfile .userAvatar {
+    width: 4rem;
+    height: 4rem;
+    margin: 0 1rem;
+}
+
+.userProfile p:first-child{
+    font-size: 0.8rem;
+}
+
+.userProfile p:last-child{
+    font-size: 1.5rem;
+}
+
+.rowTwo .btn-container {
+    justify-self: end;
+    align-self: center;
+}
+
+.rowTwo button {
+    width: 6rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: #3b82f6;
+    color: white;
+    margin: 0px 10px;
+    font-weight: bold;
+}
