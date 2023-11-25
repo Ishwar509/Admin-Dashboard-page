@@ -1,0 +1,104 @@
+
+.main {
+    display: grid;
+    grid-template-columns: 3.5fr 1fr;
+    padding: 30px 20px;
+    column-gap: 20px;
+    background-color: whitesmoke;
+}
+
+.projects .card-container {
+    display: grid;
+    margin-top: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 40px;
+}
+
+.card-container .card {
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-left: 8px solid;
+    border-left-color: orange;
+    border-radius: 8px;
+    padding: 30px 20px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.card div:last-child {
+    align-self: flex-end;
+}
+
+.card .project-title {
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.card .project-description{
+    font-size: 0.8rem;
+    color: gray;
+}
+
+.card-container .card img {
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-left: 12px;
+}
+
+.main-rightSideBar {
+    display: grid;
+    align-content: start;
+    row-gap: 40px;
+}
+
+.main-rightSideBar .sideCard {
+    margin-top: 10px;
+    padding: 0px 30px;
+    border-radius: 8px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.announcementSection .sideCard div {
+    padding: 20px 0px;
+    border-bottom: 1px solid lightgray;
+}
+
+.announcementSection .sideCard div:last-child {
+    border-bottom: none;
+}
+
+.announcementSection .sideCard div p {
+    font-size: 0.6rem;
+    padding-top: 4px;
+    color: gray;
+}
+
+.trendingSection .sideCard {
+    display: grid;
+    padding: 10px 0px;
+}
+
+.trendingSection .sideCard img {
+    width: 3rem;
+    height: 3rem;
+    margin-right: 16px;
+}
+
+.trendingSection .sideCard > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+.trendingSection .sideCard p{
+    font-size: 0.8rem;
+}
+
+.trendingSection .sideCard .project-title{
+    color: gray;
+}
