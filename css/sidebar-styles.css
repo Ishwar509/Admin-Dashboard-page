@@ -1,0 +1,45 @@
+
+.sidebar {
+    display: grid;
+    background-color: #3b82f6;
+    align-content: start;
+    row-gap: 40px;
+    padding: 20px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: white;
+}
+
+.sidebar ul {
+    padding-left: 8px;
+}
+
+.sidebar .title img {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 20px;
+}
+
+.sidebar ul img {
+    width: 1rem;
+    height: 1rem;
+    margin-right: 28px;
+}
+
+.sidebar li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: white;
+}
