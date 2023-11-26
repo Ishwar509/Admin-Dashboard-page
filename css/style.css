@@ -1,10 +1,10 @@
-@import url(https://fonts.googleapis.com/css2?family=Roboto);
+@import url(https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&family=Nunito);
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Roboto", helvetica, sans-serif;
+    font-family: "Nunito", "Roboto Mono", "Roboto", helvetica, sans-serif;
 }
 
 

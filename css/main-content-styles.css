@@ -26,6 +26,11 @@
     padding: 30px 20px;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
     background-color: white;
+    transition: 0.1s;
+}
+
+.card-container .card:hover {
+    transform: scale(1.05);
 }
 
 .card div:last-child {
